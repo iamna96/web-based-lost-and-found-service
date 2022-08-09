@@ -1,0 +1,43 @@
+.contHeader {
+  width: 95%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 255, 255);
+  padding-top: 1px;
+  padding-bottom: 1px;
+  height: 10%;
+  margin-bottom: 0%;
+  border-radius: 15px 15px 0px 0px;
+  background-color: #333;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#producttable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 95%;
+  background-color: rgb(2, 59, 57);
+  border: 1px solid rgb(255, 254, 254);
+}
+
+#producttable td {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 8px;
+  color: white;
+  text-align: center;
+}
+
+#producttable tr:nth-child(even) {
+  background-color: #047575;
+}
+
+#producttable tr:hover {
+  background-color: rgb(10, 102, 97);
+}
+
+#producttable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #011311;
+  color: white;
+}

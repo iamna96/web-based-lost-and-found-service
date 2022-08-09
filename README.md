@@ -1,0 +1,5 @@
+# Web based lost & found Service
+HTML, CSS, JavaScript, PHP & MySQL are used to develop this project.
+Web based Lost & Found service is basically a web application which is developed for the people who lost something or found something. If something gets missing the owner post on our application or if anyone found something and want to return post on our application. 
+This web application gives user the facility to get any lost thing or return any found thing by just making post on our application. By using this application user can search things by Product category. User can see how many lost posts and found posts are there in this web application.
+The basic Aim of the project is to facilitate finding lost items and to Save time and effort to find the lost item or to return the found item to its rightful person. This web application will help the students in a better way to get their lost stuff back.

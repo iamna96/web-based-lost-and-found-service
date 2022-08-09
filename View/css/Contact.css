@@ -1,0 +1,93 @@
+.container {
+    margin-top: 24px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #333333ab;
+    box-shadow: 0 4px 8px 0 rgba(90, 77, 77, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contHeader {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    padding-top: 1px;
+    padding-bottom: 5px;
+    height: 10%;
+    margin-top: 30px;
+    margin-bottom: 5%;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #333;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+input {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#btnSubmit {
+    width: 30%;
+    background-color: #068372;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+#btnSubmit:hover {
+    background-color: #3ad3b9;
+}
+
+.Found {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    width: 100%;
+    color: black;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    text-align: left;
+}
+
+#infobtn {
+    margin-top: -35px;
+    margin-left: 5px;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    margin-right: 5px;
+    float: left;
+    width: 15%;
+    background-color: #366e6c;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#infobtn:hover {
+    background-color: #30adb6;
+
+}
+
+.labelstyle {
+    margin-left: -417px;
+    font-weight: bold;
+
+}
+
+.forminput {
+    width: 70%;
+    padding-right: 100px;
+    padding-right: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    box-sizing: border-box;
+}

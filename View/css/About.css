@@ -1,0 +1,151 @@
+.container {
+    margin-top: 50px;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(245 245 245 / 76%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #ffffff;
+}
+
+#details {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#homedetails {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 5px;
+}
+
+.Found {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    width: 100%;
+    color: black;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    text-align: left;
+}
+
+#infobtn {
+    margin-top: -35px;
+    margin-left: 5px;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    margin-right: 5px;
+    float: left;
+    width: 15%;
+    background-color: #366e6c;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#infobtn:hover {
+    background-color: #30adb6;
+
+}
+
+.homecontainer {
+    margin-top: 18px;
+    padding-top: 1px;
+    padding-bottom: 7px;
+    margin-left: 19%;
+    margin-right: 19%;
+    background-color: rgb(245 245 245 / 76%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #ffffff;
+    border-radius: 25px;
+}
+
+#homesignupbtn {
+    margin-top: -25px;
+    margin-left: 2px;
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-right: 86px;
+    margin-bottom: -200px;
+    float: left;
+    width: 80%;
+    background-color: #366e6c;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 25px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#homesignupbtn:hover {
+    background-color: #30adb6;
+}
+
+.homeform {
+    display: flex;
+    justify-content: center;
+}
+
+.homeline {
+    width: 200px;
+    height: 6px;
+    border-radius: 25px;
+    background: rgb(0, 0, 0);
+    margin: 0 auto 60px auto;
+    margin-bottom: 0px;
+}
+
+#homeheading {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: darkcyan;
+    margin-top: -2px;
+    border-radius: 20px 20px 0px 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#homesubheading {
+    background-color: darkcyan;
+    width: 98%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.homesigndivbody {
+    padding-top: 90px;
+    width: 100%;
+    height: 75%;
+    background-image: url("../Image/uni-bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#homeinfobtn {
+    margin-top: -35px;
+    margin-left: 5px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-right: 5px;
+    float: left;
+    width: 92%;
+    background-color: #366e6c;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+#homeinfobtn:hover {
+    background-color: #30adb6;
+}

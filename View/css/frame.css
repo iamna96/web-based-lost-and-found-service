@@ -1,0 +1,406 @@
+        * {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #h1Title {
+            text-justify: auto;
+            text-align: center;
+            padding: 20px;
+            font-family: "Times New Roman", Times, serif;
+            text-shadow: #333;
+            color: white;
+        }
+
+        .divNavigation {
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+        }
+
+        .divBody {
+            padding-top: 20px;
+            width: 100%;
+            height: 140%;
+            background-image: url("../Image/uni-bg2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .divFooter {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            width: 100%;
+            height: 3%;
+            color: rgba(255, 255, 255, .5);
+            background-color: #000000;
+            clear: left;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            box-shadow: 0px 0px 60px rgb(187, 187, 187);
+            margin-top: -40px;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+
+        #NavBar {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 0.5px;
+            padding-bottom: 0.5px;
+            background-color: #d3d3d3bd;
+            box-shadow: 0px 0px 60px rgb(202, 195, 195);
+        }
+
+        .ulNavBAr {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+
+        }
+
+        .active {
+            background-color: darkcyan;
+        }
+
+        li {
+            float: right;
+        }
+
+        #liSign {
+            float: right;
+        }
+
+        li a {
+            display: block;
+            color: #333;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: rgb(5, 94, 100);
+            color: white;
+        }
+
+        h4 {
+            padding-left: 6px;
+        }
+
+        #form1 {
+
+            margin-top: 20px;
+            padding-top: 0px;
+            padding-bottom: 5px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(255, 255, 255);
+        }
+
+        .labelstyle {
+            margin-left: -417px;
+            font-weight: bold;
+
+        }
+
+        .forminput {
+            width: 70%;
+            padding-right: 100px;
+            padding-right: 100px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 20px;
+            display: inline-block;
+            border-radius: 20px;
+            box-sizing: border-box;
+        }
+
+        #btnSignin {
+            width: 30%;
+            background-color: #016977;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 25px;
+            margin-right: 280px;
+        }
+
+        #btnSignin:hover {
+            background-color: #4ea0ff;
+        }
+
+        .loginForm {
+            margin-top: 20px;
+            padding-top: 0px;
+            padding-bottom: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(255, 255, 255);
+        }
+
+        .signdivbody {
+            padding-top: 10px;
+            width: 100%;
+            height: 100%;
+            background-image: url("../Image/uni-bg1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .logincontainer {
+            margin-top: 15px;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-bottom: 5%;
+            border-radius: 15px 15px 15px 15px;
+            background-color: #333333ab;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .forgetdivbody {
+            padding-top: 20px;
+            width: 100%;
+            height: 100%;
+            background-image: url("../Image/uni-bg1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #producttable {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 95%;
+            background-color: rgb(2, 59, 57);
+            border: 1px solid rgb(255, 254, 254);
+        }
+
+        #producttable td {
+            border: 1px solid rgb(255, 255, 255);
+            padding: 8px;
+            color: white;
+            text-align: center;
+        }
+
+        #producttable tr:nth-child(even) {
+            background-color: #047575;
+        }
+
+        #producttable tr:hover {
+            background-color: rgb(10, 102, 97);
+        }
+
+        #producttable th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: center;
+            background-color: #011311;
+            color: white;
+        }
+
+        .banner {
+            background-image: url(../Image/sliderimage.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            top: 100px;
+            width: 100%;
+            height: 450px;
+            padding-top: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .banner-content {
+            padding-top: 38px;
+            margin-bottom: 20px;
+        }
+
+        .banner-content h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            color: white;
+            margin-bottom: -139px;
+            padding-top: 0px;
+        }
+
+        .banner-content input[type=text],
+        select {
+            margin-top: 0px;
+            width: 30%;
+            height: 10%;
+            padding: 8px;
+            margin: -34px 0px;
+            border: 1px solid #CCC;
+            border-radius: 4px;
+        }
+
+        .servicebody {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(255, 255, 255);
+            background-size: cover;
+            background-position: center center;
+            height: 90vh;
+            font-family: poppins;
+        }
+
+        .wrapper {
+            width: 1170px;
+            margin: 5% auto;
+        }
+
+        .wrapper h2 {
+            text-transform: uppercase;
+            font-family: poppins;
+            font-weight: bold;
+            text-align: center;
+            font-size: 40px;
+            color: rgb(0, 0, 0);
+            margin-top: -40px;
+            margin-bottom: 0px;
+        }
+
+        .single-service {
+            position: relative;
+            width: 23%;
+            height: 320px;
+            background: rgb(153, 153, 153);
+            box-sizing: border-box;
+            padding: 0 15px;
+            transition: .5s;
+            overflow: hidden;
+            float: left;
+            margin: 0 10px;
+            text-align: center;
+        }
+
+        .line {
+            width: 150px;
+            height: 3px;
+            background: rgb(0, 0, 0);
+            margin: 0 auto 60px auto;
+        }
+
+        .single-service p {
+            color: #262626;
+            font-size: 14px;
+        }
+
+        .single-service h3 {
+            font-size: 25px;
+            text-transform: uppercase;
+            font-family: poppins;
+            letter-spacing: 1px;
+            color: #262626;
+        }
+
+        .social {
+            width: 60px;
+            height: 60px;
+            background: #262626;
+            border-radius: 50%;
+            margin: 5% auto;
+        }
+
+        .social i {
+            font-size: 30px;
+            padding: 15px;
+            color: #fff;
+        }
+
+        .single-service:hover {
+            box-shadow: 0 30px 35px rgba(0, 0, 0, 0.7);
+        }
+
+        .single-service span {
+            position: absolute;
+            top: 0;
+            left: -110%;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            transition: .7s;
+            transform: skewX(10deg);
+        }
+
+        .single-service:hover span {
+            left: 110%;
+        }
+
+        .Aboutbody {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(255, 255, 255);
+            background-size: cover;
+            background-position: center center;
+            height: 90vh;
+            font-family: poppins;
+        }
+
+        .Aboutwrapper {
+            width: 1170px;
+            margin: 5% auto;
+        }
+
+        .Aboutwrapper h2 {
+            text-transform: uppercase;
+            font-family: poppins;
+            font-weight: bold;
+            text-align: center;
+            font-size: 40px;
+            color: rgb(0, 0, 0);
+            margin-top: -180px;
+            margin-bottom: 0px;
+        }
+
+        .Aboutline {
+            width: 220px;
+            height: 3px;
+            background: rgb(0, 0, 0);
+            margin: 0 auto 60px auto;
+        }
+
+        .Aboutsingle-service {
+            position: relative;
+            width: 40%;
+            height: 300px;
+            background-image: url("../Image/uni-bg2.jpg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            box-sizing: border-box;
+            padding: 0 15px;
+            transition: .5s;
+            overflow: hidden;
+            float: left;
+            margin: 0 10px;
+            text-align: center;
+            margin-bottom: 100px;
+        }
+
+        .Aboutcontent {
+            padding-top: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: justify;
+        }
+        
+        @media (max-width:1000px) {
+            .wrapper {
+                width: 100%;
+            }
+
+            .single-service {
+                width: 95%;
+                margin-bottom: 30px;
+            }
+
+            .wrapper h2 {
+                font-size: 30px;
+            }
+        }

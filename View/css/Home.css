@@ -1,0 +1,77 @@
+.Lost {
+    width: 100%;
+    height: auto;
+    padding-top: 140px;
+    padding-bottom: 0px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+input[type=text],
+select {
+    width: 40%;
+    height: 6%;
+    padding: 8px;
+    margin: 8px 0px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+}
+
+.Found {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    width: 100%;
+    color: black;
+    text-align: left;
+}
+
+.searchbox {
+    width: 20%;
+    height: 10%
+}
+
+#btnSubmit {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-top: 20px;
+    width: 25%;
+    background-color: #20a19b;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+#btnSubmit:hover {
+    background-color: #30adb6;
+}
+
+#infobtn {
+    margin-top: 0px;
+    margin-left: 5px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-right: 5px;
+    float: left;
+    width: 92%;
+    background-color: #366e6c;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+#infobtn:hover {
+    background-color: #30adb6;
+}
+
+.userhomedivbody {
+    padding-top: 10px;
+    width: 100%;
+    height: 190%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

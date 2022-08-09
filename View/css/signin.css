@@ -1,0 +1,82 @@
+.container {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #333333ab;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contHeader {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    height: 10%;
+    margin-bottom: 5%;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #333;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#checkbox {
+    width: 20px;
+    color: white;
+}
+
+#btnSubmit {
+    width: 30%;
+    background-color: #1C95BB;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+#btnSubmit:hover {
+    background-color: #1781A3;
+}
+
+.radioBtn {
+    width: 40px;
+}
+
+.Found {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    width: 100%;
+    color: black;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    text-align: left;
+}
+
+#infobtn {
+    margin-top: -35px;
+    margin-left: 5px;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    margin-right: 5px;
+    float: left;
+    width: 15%;
+    background-color: #366e6c;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#infobtn:hover {
+    background-color: #30adb6;
+
+}
